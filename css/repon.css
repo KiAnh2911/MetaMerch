@@ -56,8 +56,7 @@
     .checkout .wrp .left .boxx_left .boxx_left_shipp .state{padding: 10px;margin-bottom: 12px;}
     .checkout .wrp .left .boxx_left .boxx_left_shipp .statee{margin-bottom: 12px;}
     .checkout .wrp .left .boxx_left .boxx_left_shipp .statee select,.checkout .wrp .left .boxx_left .boxx_left_shipp .statee input{padding: 10px;}
-    .checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .left_delivery li .title_deli,.checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .price_delivery .price{font-size: 12px;}
-    .checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .left_delivery,.checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .price_delivery{width: 50%;}
+    .checkout .wrp .left,.checkout .wrp .right {width: 100%;}
     .checkout .wrp .right .box_order .title_order{font-size: 20px;line-height: 28px;}
     .topsellers .wrp .group_item_popular .item_popular{width: calc(50% - 12px);}
     .shop2 .cell_bot .best .grp_item .item,.shop .cell_top .wrp2 .group_items .item{width: calc(50% - 12px);}
@@ -70,9 +69,14 @@
     .thankyou .wrp2{padding: 0 20px;}
     .thankyou .wrp2 .top_thankyou .ma{font-size: 14px;line-height: 20px;}
     .thankyou .wrp2 .top_thankyou .title_thankyou{font-size: 20px;line-height: 24px;}
+    .topsellers .wrp .bot{overflow-x: scroll;white-space: nowrap;}
+    .shop2 .cell_bot .vouchers .group_items.owl-carousel .owl-nav .owl-prev span,.shop2 .cell_bot .vouchers .group_items.owl-carousel .owl-nav .owl-next span{font-size: 25px;}
+    .topsellers .wrp .title .title_sellers{font-size: 24px;}
+    .topsellers .wrp .title .right_title .day{margin-left: 12px;}
 }
 
 @media (max-width:410px) {
+    header .top .wrp .left .logo{width: 150px;}
     header .top .wrp .left{margin-bottom: 10px;}
     header .top .wrp .left,header .top .wrp .right{width: 100%;}
     header .top .wrp .right .bag .hienthi_cart{width: 210px;}
@@ -170,20 +174,23 @@
     .cart .wrp .left .group_cart .item .left input{margin-right: 10px;}
     .cart .wrp .left .group_cart .item .left .box_cartt .sizeandadd .size{padding: 5px 10px;}
     .cart .wrp .left .group_cart .item .left .box_cartt .sizeandadd .btn_add{padding: 3px 4px 5px 18px}
+    .cart .wrp .left .selectall .left_select .text,.cart .wrp .left .selectall .btn_delete{font-size: 12px;line-height: 18px;}
+    .cart .wrp .left .selectall{padding: 12px 0;}
     .cart .wrp .right .title_order{font-size: 16px;line-height: 22px;margin-bottom: 12px;}
     .cart .wrp .right .total{margin-bottom: 20px;}
     .cart .wrp .right .total .title_total{font-size: 12px;line-height: 18px;}
     .cart .wrp .right .total .price{font-size: 16px;line-height: 22px;background: url(./icon/USD-Coin-icon.png) center left no-repeat;padding-left: 20px;}
+    .cart .wrp .right .check_product{font-size: 14px;padding: 10px;}
     .checkout .wrp .left .boxx_left .boxx_left_shipp .title_ship{font-size: 16px;line-height: 22px;}
     .checkout .wrp .left{width: 100%;}
-    .checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .left_delivery li .title_deli,.checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .price_delivery .price{font-size: 11px;}
+    .checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .left_delivery li .title_deli,.checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .price_delivery .price{font-size: 10px;}
     .checkout .wrp .right .box_order .title_order{font-size: 16px;line-height: 24px;}
     .checkout .wrp .right .box_order .group_items .item .left_item .box_cart .title_futo{font-size: 14px;line-height: 20px;}
     .checkout .wrp .right .box_order .group_items .item .left_item .box_cart .sc,.checkout .wrp .right .box_order .group_items .item .left_item .box_cart .soluong,.checkout .wrp .right .box_order .group_items .item .price,.checkout .wrp .right .box_order .total .top_total .sub{font-size: 12px;line-height: 18px;}
     .checkout .wrp .right .box_order .total .bot_total .title_bot{font-size: 14px;line-height: 20px;}
     .checkout .wrp .right .box_order .total .bot_total .price_bot{font-size: 16px;line-height: 22px;background: url(./icon/USD-Coin-icon.png) center left no-repeat ;padding-left: 18px;}
     .checkout .wrp .right .box_order .btn_checkout{padding: 10px;font-size: 14px;line-height: 20px;}
-
+    .checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .left_delivery,.checkout .wrp .left .boxx_left .boxx_left_shipp .delivery .price_delivery{width: 50%;}
     .topsellers .wrp .title .title_sellers{font-size: 16px;line-height: 22px;}
     .topsellers .wrp .title .right_title {width: 100%;margin-bottom: 10px;}
     .topsellers .wrp .title .right_title .day{margin-left: 0;margin-right: 5px;font-size: 12px;line-height: 16px;}
@@ -192,8 +199,8 @@
     .topsellers .wrp .group_item_popular .item_popular{width: 100%}
     .topsellers .wrp .group_item_popular .item_popular .text .title_popular{font-size: 14px;line-height: 20px;}
     .topsellers .wrp .group_item_popular .item_popular .text .desc{font-size: 12px;line-height: 18px;}
-    .topsellers .wrp .phantrang .page{padding: 2px 9px;margin-bottom: 10px;}
-    .topsellers .wrp .phantrang select{padding: 5px 25px 4px;height: 100%;}
+    .topsellers .wrp .phantrang .page,.topsellers .wrp .phantrangg .page{padding: 2px 9px;margin-bottom: 10px;}
+    .topsellers .wrp .phantrang select,.topsellers .wrp .phantrangg select{padding: 5px 25px 4px;height: 100%;}
     .shop .cell_top .wrp2{top: -35px;padding: 0 20px;}
     .shop .cell_top .wrp2 .title_cell{font-size: 16px;line-height: 22px;padding: 12px 0 ;}
     .shop .cell_top .wrp2 .desc{font-size: 12px;line-height: 18px;}
@@ -237,4 +244,5 @@
     .thankyou .wrp2 .bot_thankyou .box_thank .grp ul{white-space: nowrap;}
     .thankyou .wrp2 .bot_thankyou .box_thank .grp ul li{font-size: 12px;}
     .topsellers .wrp .bot{overflow-x: scroll;white-space: nowrap;}
+
 }
